@@ -12,16 +12,16 @@ pay = 21.25;
 
 -- The base employees
 employees = {--   Name, LastName, Dependents, HoursWorked
-    employee.new("John","Doe",0,38);
-    employee.new("Jane","Smith",0,45);
-    employee.new("Mike","Brown",0,40);
-    employee.new("Sarah","Lee",0,50);
+    employee.new("John","Doe",1,38);
+    employee.new("Jane","Smith",3,45);
+    employee.new("Mike","Brown",1,40);
+    employee.new("Sarah","Lee",2,50);
     employee.new("David","Clark",0,30);
-    employee.new("Lisa","Green",0,42);
-    employee.new("James","White",0,60);
-    employee.new("Maria","Lopez",0,35);
+    employee.new("Lisa","Green",2,42);
+    employee.new("James","White",3,60);
+    employee.new("Maria","Lopez",2,35);
     employee.new("Kevin","Hall",0,48);
-    employee.new("Emma","Wilson",0,20);
+    employee.new("Emma","Wilson",1,20);
 };
 
 local running = true;

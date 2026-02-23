@@ -1,6 +1,8 @@
 -- Create a class with my class library.
 employee = class();
 
+creditPerDependent = 25;
+
 -- Set initializer.
 function employee:init(firstName,lastName,dependents,hours)
     -- Base variables for the class. (the x or y is if x doesnt exist, it goes to a default value.)
@@ -25,4 +27,7 @@ function employee:init(firstName,lastName,dependents,hours)
 
     -- After tax is applied
     self.postTax = self.preTax-self.tax;
+
+    -- After tax credit is applied.
+    self.postCredit = self.postTax-(self.dependents*creditPerDependent);
 end

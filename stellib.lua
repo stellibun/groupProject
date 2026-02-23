@@ -1,5 +1,7 @@
+local isWindows = package.config:sub(1,1) == "\\";
+
 function clear()
-    os.execute("clear");
+    os.execute(isWindows and "cls" or "clear");
 end
 
 function string.split(str,sep)

@@ -1,5 +1,5 @@
 local tab = {};
-local order = {{"Id","id"},{"First name","firstName"},{"Last name","lastName"},{"Dependents","dependents"},{"Hours Worked","hours"},{"Grossing","gross"},{"Overtime Grossing","overtime"},{"Pre-tax","preTax"},{"Tax","tax"},{"Post-tax","postTax"}};
+local order = {{"Id","id"},{"First name","firstName"},{"Last name","lastName"},{"Dependents","dependents"},{"Hours Worked","hours"},{"Grossing","gross"},{"Overtime Grossing","overtime"},{"Pre-tax","preTax"},{"Tax","tax"},{"Post-tax","postTax"},{"Post-credit","postCredit"}};
 local list = "";
 
 function loadLine()
